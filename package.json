@@ -1,0 +1,23 @@
+{
+  "name": "webpack-sandbox",
+  "version": "1.0.0",
+  "description": "webpack fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wookets/webpack-sandbox.git"
+  },
+  "keywords": [
+    "webpack",
+    "node"
+  ],
+  "author": "wookets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wookets/webpack-sandbox/issues"
+  },
+  "homepage": "https://github.com/wookets/webpack-sandbox#readme"
+}
