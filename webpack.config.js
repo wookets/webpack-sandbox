@@ -1,8 +1,12 @@
 module.exports = {
-    entry: "./scripts/entry.js",
+    entry: {
+        main: "./scripts/entry.js"
+    },
     output: {
         path: __dirname + "/build",
-        filename: "bundle.js"
+        filename: "bundle.js",
+        libraryTarget: "var",
+        library: "Foo"
     },
     module: {
         loaders: [

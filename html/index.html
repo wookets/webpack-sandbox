@@ -3,6 +3,16 @@
     <meta charset="utf-8">
 </head>
 <body>
+
     <script type="text/javascript" src="../build/bundle.js" charset="utf-8"></script>
+    <script>
+        console.log("foo", Foo);
+        //Foo("module1")();
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+            console.log("DOM fully loaded and parsed");
+            console.log("foo", Foo);
+        });
+    </script>
 </body>
 </html>
