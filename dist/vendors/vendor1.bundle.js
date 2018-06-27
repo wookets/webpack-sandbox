@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,function(n,o,t){"use strict";function u(){return"vendor1"}t.r(o),t.d(o,"default",function(){return u})}]]);
